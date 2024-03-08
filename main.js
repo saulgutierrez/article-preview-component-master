@@ -1,7 +1,6 @@
 active = () => {
   let button = document.getElementById("button");
   let image = document.getElementById("image");
-  console.log(button.style.backgroundColor.toString());
   if (button.style.backgroundColor != "rgb(109, 127, 151)") {
     button.style.backgroundColor = "rgb(109, 127, 151)";
     image.style.filter =
